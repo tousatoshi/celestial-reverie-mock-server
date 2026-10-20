@@ -187,6 +187,8 @@
 | ws@8.22.0 | MIT | https://github.com/websockets/ws |
 | yallist@5.0.0 | BlueOak-1.0.0 | https://github.com/isaacs/yallist |
 
+</details>
+
 ## SQLite
 
 历史会话由 `sqlite3`（node-sqlite3）绑定的 SQLite 存储。SQLite 本体属于公共领域；node-sqlite3 的许可证见上表。安装时该库可能下载预编译二进制或在本地编译，来源以其官方说明为准。
