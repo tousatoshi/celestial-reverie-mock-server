@@ -1,0 +1,60 @@
+# Node & Dependency Directories
+node_modules/
+
+# Environment Variables & Credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+model-config.ts
+model-config.*.ts
+
+# Audio cache & output (preserve directory and baseline assets)
+audio/
+
+# Local Database & User State Data (prevent leaking private conversations and accounts)
+data/*.db
+data/*.db-*
+data/*.db-journal
+data/persisted_*.json
+data/director_state.json
+
+# Scratch & Intermediate Testing Artifacts
+scratch/
+tmp/
+scripts/
+*.log
+*.err
+server.log
+server.err
+game_debug.log
+third-party-licenses.csv
+
+# User Custom System Prompts
+prompts/rei.prompt.js
+
+# System & OS Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Game Client Binaries & Large Resource Bundles (Defense-in-depth)
+*.exe
+*.dll
+*.dat
+*.bytes
+*.bak
+patch_*.js
+GameAssembly*
+global-metadata*
+CelestialReverie_Data/
+il2cpp_data/
+Asset/
+il2cpp_decompiled_output/
+output/
+docs/
+*CHANGELOG.md

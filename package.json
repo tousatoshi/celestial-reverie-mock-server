@@ -1,0 +1,29 @@
+{
+  "name": "celestial-reverie-mock-server",
+  "version": "1.0.0",
+  "description": "Celestial Reverie 本地Mock服务器 - 完全离线运行",
+  "main": "server.js",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tousatoshi/celestial-reverie-mock-server.git"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --check server.js services/llm.js routes/chat.js prompts/rei.prompt.example.js"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "https-proxy-agent": "^9.1.0",
+    "sqlite3": "^6.0.1",
+    "undici": "^7.30.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.16.0"
+  }
+}
